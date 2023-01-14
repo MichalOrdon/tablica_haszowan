@@ -9,8 +9,8 @@ def wykonaj_hash(index, tablica_glowna, ilosc_kolizji=0):
 
 
 def na_ASCII(klucz_nazwisko):
-    nazwiskoRozbiteNaKodASCII = klucz_nazwisko.encode()
-    kodHash = sum(nazwiskoRozbiteNaKodASCII) * 100
+    nazwisko_ASCII = klucz_nazwisko.encode()
+    kodHash = sum(nazwisko_ASCII) * 100
     return kodHash
 
 
